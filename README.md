@@ -9,19 +9,20 @@
 - **Multiple Rank Aggregation Methods**:
   - Borda Method
   - Copeland Method
-  - Fast Kemeny-Young
-  - Fast Footrule Rank Aggregation
   - Footrule Rank Aggregation
+  - Fast Footrule Rank Aggregation
   - Kemeny-Young Method
+  - Fast Kemeny-Young
   - Median Rank Aggregation
   - PageRank Algorithm
   - Plackett-Luce Model Aggregation
-  - Reciprocal Rank Fusion (RRF)
+  - Reciprocal Rank Fusion
   - Schulze Method
 
 - **Distance and Correlation Metrics**:
   - Cayley Distance 
   - Footrule Distance
+  - Kendall Tau Distance
   - Kendall Tau Correlation
   - Spearman Rank Correlation
 
@@ -94,7 +95,10 @@ ra.metrics_plot(d_matrix)
 
 
 7. Others
+- [3MOAHP](https://github.com/Valdecy/Method_3MOAHP) - Inconsistency Reduction Technique for AHP and Fuzzy-AHP Methods
 - [pyDecision](https://github.com/Valdecy/pyDecision) - A library for many MCDA methods
 - [pyMissingAHP](https://github.com/Valdecy/pyMissingAHP) - A Method to Infer AHP Missing Pairwise Comparisons
 - [ELECTRE-Tree](https://github.com/Valdecy/ELECTRE-Tree) - Algorithm to infer the ELECTRE Tri-B method parameters
 - [Ranking-Trees](https://github.com/Valdecy/Ranking-Trees) - Algorithm to infer the ELECTRE II, III, IV and PROMETHEE I, II, III, IV method parameters
+- [EC-PROMETHEE](https://github.com/Valdecy/ec_promethee) -  A Committee Approach for Outranking Problems
+- [MCDM Scheduler](https://github.com/Valdecy/mcdm_scheduler) -  A MCDM approach for Scheduling Problems
