@@ -42,7 +42,7 @@ pip install pyRankMCDA
 
 ```python
 import numpy as np
-from pyRankMCDA import rank_aggregation
+from pyRankMCDA.algorithm import rank_aggregation
 
 # Example rankings from different methods
 
