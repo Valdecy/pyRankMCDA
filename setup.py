@@ -5,8 +5,8 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / 'README.md').read_text()
 
 setup(
-    name='pyRankMCDA',
-    version='2.1.5',
+    name='pyrankmcda',
+    version='2.1.7',
     license='GNU',
     author='Valdecy Pereira',
     author_email='valdecy.pereira@gmail.com',
