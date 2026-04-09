@@ -6,7 +6,7 @@
 
 ## Citation
 
-PEREIRA, V.; BASILIO, M.P.; FATIH Y. (2026). **PyBibX: A Python Library for Bibliometric and Scientometric Analysis Powered with Artificial Intelligence Tools**. International Journal of Information Technology & Decision Making. doi: https://www.worldscientific.com/doi/10.1142/S0219622026500525
+PEREIRA, V.; BASILIO, M.P.; FATIH Y. (2026). **Unifying Multiple MCDA Rankings: Aggregation of Rankings through Methodological and Computational Perspectives**. International Journal of Information Technology & Decision Making. doi: https://www.worldscientific.com/doi/10.1142/S0219622026500525
 
 ## Features
 
