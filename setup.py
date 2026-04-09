@@ -6,7 +6,7 @@ long_description = (this_directory / 'README.md').read_text()
 
 setup(
     name='pyrankmcda',
-    version='2.1.7',
+    version='2.1.8',
     license='GNU',
     author='Valdecy Pereira',
     author_email='valdecy.pereira@gmail.com',
@@ -24,7 +24,7 @@ setup(
         'scikit-learn'
     ],
     zip_safe=True,
-    description='A Rank Aggegation Library for MCDA problems',
+    description='A Rank Aggregation Library for MCDA problems',
     long_description=long_description,
     long_description_content_type='text/markdown',
 )
