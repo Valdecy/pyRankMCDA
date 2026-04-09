@@ -4,6 +4,10 @@
 
 **pyRankMCDA** is a Python library designed for rank aggregation in multi-criteria decision analysis (MCDA). It provides implementations of classical and modern rank aggregation methods, allowing users to combine multiple rankings into a single consensus ranking. This is particularly useful in fields like decision science, information retrieval, and any domain where synthesizing different ordered lists is necessary.
 
+## Citation
+
+PEREIRA, V.; BASILIO, M.P.; FATIH Y. (2026). **PyBibX: A Python Library for Bibliometric and Scientometric Analysis Powered with Artificial Intelligence Tools**. International Journal of Information Technology & Decision Making. doi: https://www.worldscientific.com/doi/10.1142/S0219622026500525
+
 ## Features
 
 - **Multiple Rank Aggregation Methods**:
