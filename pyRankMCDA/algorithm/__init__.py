@@ -1,3 +1,1 @@
-from .src import RankAggregation, rank_aggregation
-
-__all__ = ['RankAggregation', 'rank_aggregation']
+from .src import rank_aggregation
