@@ -35,6 +35,21 @@ PEREIRA, V.; BASILIO, M.P.; FATIH Y. (2026). **Unifying Multiple MCDA Rankings: 
   - Radar charts comparing rankings from different methods
   - Multidimensional Scaling (MDS) plots for visualizing distances between ranking methods
 
+
+## Data Contract
+
+- `ranks` must have shape `(n_alternatives, n_rankings)`.
+- Each **column** is one complete ranking.
+- Each column must be a permutation of `1..n_alternatives`.
+- Rank `1` is the best alternative.
+- Every aggregation method returns a **rank vector**: the i-th value is the final rank assigned to alternative `a(i+1)`.
+
+You can also pass `random_state` to make tie-breaking reproducible:
+
+```python
+ra = rank_aggregation(ranks, random_state = 42)
+```
+
 ## Usage
 1. Install
 
@@ -52,8 +67,8 @@ from pyRankMCDA.algorithm import rank_aggregation
 
 ranks = np.array([
     [1, 2, 3],
-    [2, 1, 3],
-    [3, 2, 1]
+    [2, 1, 2],
+    [3, 3, 1]
 ])
 
 # Initialize rank aggregation object
